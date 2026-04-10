@@ -248,9 +248,9 @@ endif()
 #            REQUIRED)
 
 if(BuildForFedora)
-    # Version used used by Fedora 41 is 1.83
+    # Version used by Fedora 41 is 1.8.3
     # TODO: Detect the right version and put it here.
-    add_definitions(-DOPENFST_VER=18300)
+    add_definitions(-DOPENFST_VER=10803)
 #    link_directories(/usr/lib64)
 #    include_directories(/usr/include/fst)    
 endif()
